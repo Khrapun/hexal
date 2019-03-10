@@ -1,0 +1,234 @@
+*{
+    margin: 0vh;
+    padding: 0vh;
+    font-family: sans-serif;
+
+}
+header {
+    height: 70px;
+    background: #323232;
+}
+.imageLayer {
+    width: 200px;
+    height: 200px;
+    -webkit-clip-path: polygon(0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%, 0% 25%);
+    clip-path: polygon(0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%, 0% 25%);
+    padding: 0px 7px;
+}
+.menu{
+    padding-top: 30px;
+    text-align:center;
+    position: relative;
+}
+ul.menu li {
+    display: inline; 
+    padding: 6px;
+}
+li :hover {
+    color: #2eb398;
+}
+a {
+    text-decoration: none;
+    font-size: 11px;
+    color: white;
+}
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 72px 150px 0 150px;
+    border-color: #323232 transparent transparent transparent;
+    position: absolute;
+    left: 525px;
+    top: 20px
+}
+.triangle-white {
+    width: 130px;
+    height: 110px;
+    background: white;
+    -webkit-clip-path: polygon(50% 0%, 75% 50%, 50% 25%, 25% 50%);
+    clip-path: polygon(50% 0%, 75% 50%, 50% 40%, 25% 50%);
+    transform: rotate(180deg);
+    margin-top: -2.7em;
+    margin-left: 38.1em;
+    position: absolute;
+}
+.triangle-gray {
+    width: 120px;
+    height: 100px;
+    background: #323232;
+    -webkit-clip-path: polygon(50% 0%, 75% 50%, 50% 25%, 25% 50%);
+    clip-path: polygon(50% 0%, 75% 50%, 50% 40%, 25% 50%);
+    transform: rotate(180deg);
+    margin-top: -2.22em;
+    margin-left: 38.45em;
+    position: absolute;
+}
+.linefull1 {
+    width: 500px;
+    border: none;
+    background-color: #b5b5b5;
+    color: #b5b5b5;
+    height: 0.5px;
+    margin-left: 75px;
+    position: absolute;
+    margin-top: 27px;
+}
+.linefull2 {
+    width: 500px;
+    border: none;
+    background-color: #b5b5b5;
+    color: #b5b5b5;
+    height: 0.5px;
+    margin-left: 770px;
+    position: absolute;
+    margin-top: 27px;
+}
+.lineOne {
+    margin-left: 240px;
+    margin-bottom: -2em;
+    margin-top: 5em;
+}
+.lineTwo {
+    margin-left: 130px;
+    margin-bottom: -2em;
+}
+.lineThree {
+    margin-left: 240px;
+}
+.Hexagon-container {
+    background-color: #2eb398;
+    height: 370px;
+}
+.social {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 900px;
+    bottom: 120px;
+}
+.inform :hover {
+    transition: all 3s;
+    transform: rotate(720deg);
+}
+.hexagon {
+    width: 180px;
+    height: 400px;
+    margin: 60px 0px 0px 285px;
+    transform: rotate(120deg);
+    overflow: hidden;
+    visibility: hidden;
+}
+.linefull {
+    width: 1200px;
+    border: none;
+    background-color: #b5b5b5;
+    color: #b5b5b5;
+    height: 0.5px;
+    margin-left: 75px;
+    position: absolute;
+    margin-top: 50px;
+}
+.hexagonLayer-1 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: hidden;
+}
+.hexagonLayer-2 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    background: #cccccc;
+    overflow: hidden;
+    visibility: visible;
+    background-image: url('../img/smith.png');
+    background-repeat: no-repeat;
+    background-position: 50%; 
+}
+.biography{
+    width: 600px;
+    padding: 20px 0px 0px 0px;
+    font-size: 13px;
+}
+article{
+    margin-left: 490px;
+    margin-top: -19em;
+    position: absolute;
+    color: #d7fcf5;
+}
+footer {
+    background-color: #323232;
+}
+.linefullEnd {
+    width: 1200px;
+    border: none;
+    background-color: black;
+    color: black;
+    height: 0.5px;
+    margin-left: 75px;
+    position: absolute;
+    margin-top: 10px;
+}
+.input-text {
+    display: block;
+    padding: 10px;
+    margin: 13px 0px 0px 285px;
+    width: 554px;
+    background-color: #454545;
+    border: 0;
+    color: #b5b5b5;
+}
+fieldset {
+    border:0 none;
+ }
+ button {
+    width: 90px;
+    margin-top: 10px;
+    margin-left: 773px;
+    height: 38px;
+    background-color: #2eb398;
+    border: 0;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+ }
+ .footerHead {
+     padding: 30px 0px 8px 283px;
+     color: #b5b5b5;
+     font-weight: 200;
+ }
+ input::-webkit-input-placeholder { 
+     color: #b5b5b5;
+}
+ .footerUnder {
+    width: 230px;
+    line-height: 1.5;
+    margin-left: 884px;
+    position: absolute;
+    margin-top: -24.6em;
+    font-size: 15px;
+    color: #b5b5b5;
+}
+.colortext {
+    color: white;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+.locat {
+    padding-top: 30px;
+}
+.callmy {
+    color: #b5b5b5;
+    display: block;
+    margin: 4px;
+}
+.call {
+    margin-left: 27px;
+    margin-top: -4.1em;
+}
+
